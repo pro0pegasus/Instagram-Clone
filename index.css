@@ -85,12 +85,12 @@ header .container{
     margin: 11.87px 0 12px 13px;
 }
 
-.comment { 
+.usernamecaption{ 
     font-size: 13px;
-    margin-left: 14px;
+    margin-left: 13px;
 }
 
-.user-name{
+#user-name-el{
     font-weight: bold;
 }
 
