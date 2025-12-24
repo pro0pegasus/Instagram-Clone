@@ -10,9 +10,9 @@
             </div>
             <img class="post-image" src="${i.post}" alt="post image of ${i.name}">
             <div class="icons">
-                <img class="heart icon" src="public/images/icon-heart.png" alt="like icon heart shaped">
-                <img class="cmt icon" src="public/images/icon-comment.png" alt="comment icon for comments">
-                <img class="dm icon" src="public/images/icon-dm.png" alt="dm icon for direct messages">
+                <img class="heart icon" src="/images/icon-heart.png" alt="like icon heart shaped">
+                <img class="cmt icon" src="/images/icon-comment.png" alt="comment icon for comments">
+                <img class="dm icon" src="/images/icon-dm.png" alt="dm icon for direct messages">
             </div>
             <p class="like-counts">${i.likes} likes</p>
             <p class="usernamecaption"><span id="user-name-el" >${i.username}</span> ${i.comment}</p>
