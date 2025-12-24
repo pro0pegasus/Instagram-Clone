@@ -71,6 +71,14 @@ header .container{
     margin: 14px 0 14px 10px;
 }
 
+.icons:hover{
+    cursor: pointer;
+}
+
+.heart:hover, .cmt:hover, .dm:hover{
+    border: 2px solid white;
+}
+
 .like-counts{
     font-size: 13px;
     font-weight: bold;
