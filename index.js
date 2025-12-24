@@ -43,9 +43,8 @@ const posts = [
     }
 ]
 
-// posts.sort((a, b) => b.likes - a.likes) 
 // sorting posts by likes in descending order
-
+// posts.sort((a, b) => b.likes - a.likes) 
 
 feedEl.innerHTML = posts.map(post => `
     <section>
