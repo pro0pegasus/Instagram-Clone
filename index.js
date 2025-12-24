@@ -18,8 +18,8 @@ const posts = [
         name: "Vincent van Gogh",
         username: "vincey1853",
         location: "Zundert, Netherlands",
-        avatar: "public/images/avatar-vangogh.jpg",
-        post: "public/images/post-vangogh.jpg",
+            avatar: "/images/avatar-vangogh.jpg",
+            post: "/images/post-vangogh.jpg",
         comment: "just took a few mushrooms lol",
         likes: 21
     },
@@ -27,8 +27,8 @@ const posts = [
         name: "Gustave Courbet",
         username: "gus1819",
         location: "Ornans, France",
-        avatar: "public/images/avatar-courbet.jpg",
-        post: "public/images/post-courbet.jpg",
+            avatar: "/images/avatar-courbet.jpg",
+            post: "/images/post-courbet.jpg",
         comment: "i'm feelin a bit stressed tbh",
         likes: 4
     },
@@ -36,8 +36,8 @@ const posts = [
         name: "Joseph Ducreux",
         username: "jd1735",
         location: "Paris, France",
-        avatar: "public/images/avatar-ducreux.jpg",
-        post: "public/images/post-ducreux.jpg",
+            avatar: "/images/avatar-ducreux.jpg",
+            post: "/images/post-ducreux.jpg",
         comment: "gm friends! which coin are YOU stacking up today?? post below and WAGMI!",
         likes: 152
     }
@@ -58,9 +58,9 @@ feedEl.innerHTML = posts.map(post => `
             </div>
             <img class="post-image" src="${post.post}" alt="post image of ${post.name}">
             <div class="icons">
-                <img class="heart icon" src="public/images/icon-heart.png" alt="like icon heart shaped">
-                <img class="cmt icon" src="public/images/icon-comment.png" alt="comment icon for comments">
-                <img class="dm icon" src="public/images/icon-dm.png" alt="dm icon for direct messages">
+                 <img class="heart icon" src="/images/icon-heart.png" alt="like icon heart shaped">
+                 <img class="cmt icon" src="/images/icon-comment.png" alt="comment icon for comments">
+                 <img class="dm icon" src="/images/icon-dm.png" alt="dm icon for direct messages">
             </div>
             <p class="like-counts">${post.likes} likes</p>
             <p class="usernamecaption"><span id="user-name-el" >${post.username}</span> ${post.comment}</p>
